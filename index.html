@@ -1,0 +1,566 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Vashisth Bhushan</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="media.css">
+  <link rel="stylesheet" href="css/lytebox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" media="screen" />
+</head>
+<style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #25303e;
+    margin: auto;
+    padding:-10px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+/* The vashi Button */
+.vashi {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.vashi:hover,
+.vashi:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+<!-- Coded With <3 Vashisth Bhushan -->
+<body id="main_loader" data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="150">
+    <div id="home" class="site-main">
+        <header class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo col-sm-2">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="header-right text-right col-sm-8 pull-right">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#about">About</a></li>
+                                            <li><a href="#resume">Resume</a></li>
+                                            <li><a href="#portfolio">Portfolio</a></li>
+                                            <li><a href="#Skills">Skills</a></li>
+                                            <li><a href="#blog">Blog</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="main">
+
+        <!--banner-->
+        <section class="banner">
+            <div class="container .rel-position">
+                <div class="banner-container">
+                    <div class="row">
+                        <div class="col-md-4 pr">
+                            <img class="banner-img" src="images/banner-per.jpg" alt="image">
+                        </div>
+                        <div class="details pull-right col-md-7 col-sm-12 mar-right-mid col-xs-12 animated wow fadeInUp" data-wow-delay="0.5s">
+                            <h1>I’M VASHISTH BHUSHAN</h1>
+                            <span class="banner-subhead">Website Developer, Programmer, Designer and Digital Marketer</span>
+                            <p class="mar-bottom-mid">Hey there! I am currently a second year student at <b> Manipal University Jaipur </b> and am doing B.Tech in Information Technology. Scroll down to see my work <span button class=""> </p>
+                            <div class="button">
+                                <div class="mountain-meadow-button mar-right-big"><a href="#contact">TALK TO ME</a></div>
+                          <div button id="myBtn" class="button white-button"><a href="#myModal">VIEW RESUME</a></div>
+                          </div>
+                    </div>
+                </div>
+                <div id="myModal" class="modal" style="margin-top:100px;">
+                  <div class="modal-content">
+                    <span class="vashi">&times;</span>
+                  <h2 style="color:white;text-align:center;">My CV</h2>
+                  <h5 style="color:white;text-align:center;">(Right Click and Open in New Tab)</h5>
+                  <h5 style="color:white;text-align:center;">(if Difficulty in mobile. Please Open in new tab)</h5>
+                    <table>
+                      <td>
+                  <img src="final-cv.png" style="position:relative;margin-left:40px;" >
+                  </td>
+                </table>
+                  </div>
+                </div>
+                <script>
+
+                // Get the modal
+                var modal = document.getElementById('myModal');
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
+
+                // Get the <span> element that vashis the modal
+                var span = document.getElementsByClassName("vashi")[0];
+
+                // When the user clicks the button, open the modal
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                }
+
+                // When the user clicks on <span> (x), vashi the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, vashi it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                </script>
+            </div>
+        </section>
+        <!--banner-->
+
+        <!--about-->
+        <section id="about" class="about animated wow fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>ABOUT ME</h2>
+                <span class="sub-title mar-bottom-bigger">Know more about me as a person</span>
+                <div class="row">
+                    <div class="about-left col-sm-3 col-xs-12">
+                        <div class="abtImg"><img src="images/about-us-img.png" alt="img"></div>
+                    </div>
+                    <div class="about-right col-md-7 col-sm-8 col-xs-12">
+                        <p>Hello! I’m Vashisth Bhushan </p>
+                        <font-size=11px>
+                        <ul style="list-style-type:circle">
+                          <li>
+                            <p>Design Head at <a href="www.IEEEmuj.com">IEEE MUJ </a></p>
+                          </li>
+                          <li>
+                            <p>Graphic Design Head in Rotaract Green Club Manipal Jaipur</p>
+                          </li>
+                          <li>
+                            <p>Core Committee TechIdeate Web Development and Registrations</p>
+                          </li>
+                        </font>
+                        </ul>
+                        <div class="about-social-icon">
+                            <strong class="social-head">FOLLOW ME:</strong>
+                            <div class="icon">
+                                <a href="https://fb.com/vashisth00"><span class="fa fa-facebook"></span></a>
+                                <a href="https://instagram.com/vashisth00"><span class="fa fa-instagram"></span></a>
+                                <a href="https://behance.net/vashisth00"><span class="fa fa-behance"></span></a>
+                                <a href="https://www.linkedin.com/in/vashisth00/"><span class="fa fa-linkedin"></span></a>
+                                <a href="https://www.quora.com/profile/Vashisth-Bhushan"><span class="fa fa-quora"></span></a>
+                            </div>
+                        </div>
+                        <div class="divider">
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about-->
+
+        <!--services-->
+        <section id="resume" class="services wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>MY SERVICES</h2>
+                <span class="sub-title mar-bottom-bigger">See how can I help you</span>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 services-block">
+                        <div class="cont">
+                            <i><span class="fa fa-code fa-4x"></span></i>
+                            <h3>CLEAN CODE</h3>
+                            <p class="nomargin">I believe in keeping the Code Simple neat and easy to Understand.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 services-block">
+                        <div class="cont">
+                            <i><span class="fa fa-heart fa-4x"></span></i>
+                            <h3>LOVE DESIGN</h3>
+                            <p class="nomargin">Love the taste of Design and can Understand the beauty of design and it's value in terms of minimalistic nature. Can blend well in any color mode</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 services-block">
+                        <div class="cont">
+                            <i><span class="fa fa-area-chart fa-4x"></span></i>
+                            <h3>MARKETING / BRANDING</h3>
+                            <p class="nomargin">Visit my Behance profile, You'll Understand.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--services-->
+
+        <!--expertise-->
+        <section id="resume-expert" class="expertise wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>AREAS OF EXPERTISE</h2>
+                <span class="sub-title mar-bottom-bigger">My specialization revolves around these 3 areas</span>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <label class="progress-head">Adobe Photoshop</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <span class="sr-only">70% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2">
+                        <label class="progress-head">Adobe Illustrator</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                <span class="sr-only">70% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <label class="progress-head">React - Native</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:37%">
+                                <span class="sr-only">70% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2">
+                        <label class="progress-head">Team Management</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:58%">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <label class="progress-head">Branding and Social Media Marketing</label>
+                        <div class="progress nomargin">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                                <span class="sr-only">70% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2">
+                        <label class="progress-head">Web Design</label>
+                        <div class="progress nomargin">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                <span class="sr-only">70% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--expertise-->
+
+        <!--education-->
+        <section class="education wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>MY EDUCATION</h2>
+                <span class="sub-title mar-bottom-bigger">Where I went to study</span>
+                <div class="row pr">
+                    <i class="education-line"></i>
+                    <div class="col-sm-12 col-xs-12 pull-right box mar-bottom-mid edu">
+                        <div class="box-cont edu-bor">
+                            <h3 class="nomargin">B.Tech Information Technology Manipal University Jaipur</h3>
+                            <h4>August 2016 to August 2020</h4>
+                            <p class="nomargin">Currently in B.Tech Information Technology 3rd Semester with a CGPA of 6.96</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xs-12  pull-right box edu">
+                        <div class="box-cont edu-bor">
+                            <h3 class="nomargin">Amity International School, Gurgaon</h3>
+                            <h4>April 2014 to April 2016</h4>
+                            <p class="nomargin">Studied for two years in Amity International School. 11th and 12th Class. Got 95 in Physics and 96 in Information Practices (IP/IT) in 12th Board Exams.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--education-->
+
+        <!--experience-->
+        <section class="experience wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>MY EXPERIENCE</h2>
+                <span class="sub-title mar-bottom-bigger">Get a peek inside my work profile</span>
+                <div class="row pr">
+                    <i class="experience-line"></i>
+                    <div class="col-sm-11 col-xs-12  box mar-bottom-mid pull-right edu experience-box">
+                        <div class="box-cont edu-bor">
+                            <div class="date">April 2016  -  Present</div>
+                            <h3 class="nomargin">Design Head</h3>
+                            <h4>IEEE MUJ  <span class="text-primary">Manipal University, Jaipur</span></h4>
+                            <p class="nomargin">Being the part of Student Committee all the graphic designs for event posters, flexes, standees etc are finalized by me  and design is made using utmost precision to be circulated in the entire Campus</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-11 col-xs-12  box mar-bottom-mid pull-right edu experience-box">
+                        <div class="box-cont edu-bor">
+                            <div class="date">November 2017</div>
+                            <h3 class="nomargin">Team Lead</h3>
+                            <h4>Blood Donation Camp  <span class="text-primary">Jaipur, Rajhasthan</span></h4>
+                            <p class="nomargin">Handled a team with 14 Graphic Designers and being the CC(Core Committee) of Design team I was given the responsibility to manage the team for every possible graphic to be circulated in the college. The stuff my team made was beautiful and extraordinary : not only the designs were appreciated by the entire College but also by the Hospitals that came in during the blood Donation Camp by the Blood Bank.
+                              We were given the task to design the: <b> </b></p><span><i style="font-size:15px;">Hoardings, Large Flexes, Drops, A3 Size Posters, Social Media Handles Posters, Wrist Bands, ID Cards and Certificates</i></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-11 col-xs-12  box pull-right edu experience-box">
+                        <div class="box-cont edu-bor">
+                            <div class="date">May 2017 - August 2017</div>
+                            <h3 class="nomargin">Intern</h3>
+                            <h4>Lucideus <span class="text-primary">Industrial Area, Hauz Khas, New Delhi</span></h4>
+                            <p class="nomargin">At Lucideus Tech I helped the team by managing the Services webpages of Lucideus Tech.
+-The Admin Dashboard
+- The Emailers
+- The Poster Designs
+- The Landing Page Design and Web Design Code using HTML5,CSS3 and JS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--experience-->
+
+        <!--interest-->
+        <section id="Skills" class="interest wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>MY Skills</h2>
+                <span class="sub-title mar-bottom-bigger">What I am able of</span>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6 interest-box">
+                        <div class="box light-border no-shadow">
+                            <span class="fa fa-code fa-3x"><i class="path1"></i><i class="path2"></i><i class="path3"></i><i class="path4"></i><i class="path5"></i><i class="path6"></i><i class="path7"></i></span>
+                            <span class="title">WEB DEVELOPMENT</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 interest-box">
+                        <div class="box light-border no-shadow">
+                            <span class="fa fa-picture-o fa-3x"><i class="path1"></i><i class="path2"></i><i class="path3"></i></span>
+                            <span class="title">GRAPHIC DESIGN</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 interest-box">
+                        <div class="box light-border no-shadow">
+                            <span class="fa fa-users fa-3x"><i class="path1"></i><i class="path2"></i><i class="path3"></i><i class="path4"></i></span>
+                            <span class="title">SOCIAL MEDIA MARKETING</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 interest-box">
+                        <div class="box light-border no-shadow">
+                            <span class="fa fa-mobile fa-3x"><i class="path1"></i><i class="path2"></i><i class="path3"></i></span>
+                            <span class="title">APP DEVELOPMENT (only static apps using React-native)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--interest-->
+
+        <!--portfolio-->
+        <section id="portfolio" class="portfolio wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>MY PORTFOLIO</h2>
+                <span class="sub-title mar-bottom-bigger">See the amazing work I did in the past</span>
+                <div class="button-group filters-button-group">
+                    <button class="button is-checked" data-filter="*">All</button>
+                    <button class="button" data-filter=".metal">Logo</button>
+                    <button class="button" data-filter=".transition">Branding</button>
+                    <button class="button" data-filter=".alkali, .alkaline-earth">PHOTOGRAPHY</button>
+                </div>
+                <div class="grid">
+                    <div class="row">
+                        <div class="element-item transition alkali metal col-sm-4 col-xs-6 nopadding " data-category="transition">
+                            <a href="images/portfolio1.jpg" class="lytebox" data-title="Shopping Bag" data-description="Hello everyone I am from Manipal Jaipur hehehe."><img src="images/portfolio1.jpg" alt="portfolio-1" /></a>
+                        </div>
+                        <div class="element-item metalloid alkali transition col-sm-4 col-xs-6 nopadding" data-category="metalloid ">
+                            <a href="images/portfolio2.jpg" class="lytebox" data-title="Shopping Bag" data-description="Hello everyone I am from Manipal Jaipur hehehe."><img src="images/portfolio2.jpg" alt="portfolio-2" /></a>
+                        </div>
+                        <div class="element-item post-transition metal col-sm-4 col-xs-6 nopadding" data-category="post-transition">
+                            <a href="images/portfolio3.jpg" class="lytebox" data-title="Shopping Bag" data-description="Hello everyone I am from Manipal Jaipur hehehe."><img src="images/portfolio3.jpg" alt="portfolio-3" /></a>
+                        </div>
+                        <div class="element-item transition metal col-sm-4 col-xs-6 nopadding" data-category="transition">
+                            <a href="images/portfolio4.jpg" class="lytebox" data-title="Shopping Bag" data-description="Hello everyone I am from Manipal Jaipur hehehe."><img src="images/portfolio4.jpg" alt="portfolio-4" /></a>
+                        </div>
+                        <div class="element-item transition metal col-sm-4 col-xs-6 nopadding" data-category="transition">
+                            <a href="images/portfolio5.jpg" class="lytebox" data-title="Shopping Bag" data-description="Hello everyone I am from Manipal Jaipur hehehe."><img src="images/portfolio5.jpg" alt="portfolio-5" /></a>
+                        </div>
+                        <div class="element-item alkali metal col-sm-4 col-xs-6 nopadding" data-category="alkali">
+                            <a href="images/portfolio6.jpg" class="lytebox" data-title="Shopping Bag" data-description="Hello everyone I am from Manipal Jaipur hehehe."><img src="images/portfolio6.jpg" alt="portfolio-6" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--portfolio-->
+
+
+        <section id="blog" class="blog wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>Blog</h2>
+                <span class="sub-title mar-bottom-bigger">Blogs will be updated Soon</span>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 pr blog-box">
+                        <div class="blog-date">27 DEC</div>
+                        <img src="images/prud1.jpg" alt="img">
+                        <div class="col-sm-11 auto-marging whitebackground pull-none blog-cont">
+                            <h3><a href="https://prudentiaindia.tk">PRUDENTIA INDIA</a></h3>
+                            <p>Prudentia is a startup by me and 4 other hardworking and Talented students from our College</p>
+                            <p>We aim at providing education at a very minimal cost to a very huge number of students on impact of Technology that can be on businesses across the globe. Teach them App Development Web Development and Graphic Design</p>
+                            <div class="blog-bottom">
+                                <span><span class="icon-user fIcon"></span><a href="#">Vashisth Bhushan</a></span>
+                                <span><span class="icon-comments fIcon"></span>18</span>
+                                <span><span class="icon-tags fIcon"></span><a href="#">Web Design</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--blog-->
+
+        <!--contact me-->
+        <section id="contact" class="contact pad-bottom-most wow animated fadeInUp" data-wow-delay="0.5s">
+            <div class="container">
+                <h2>CONTACT ME</h2>
+                <span class="sub-title mar-bottom-bigger">Having an exciting project? Let's connect</span>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 container-left cntct-form">
+                        <form  action="mail_handler.php" method="post" name="form" class="contact-form">
+                            <div class="row">
+                                <div class="col-sm-12 pad-bottom-bigger form-item">
+                                    <input type="text" name="name" placeholder="Your Name">
+                                </div>
+                                <div class="col-sm-12 pad-bottom-bigger form-item">
+                                    <input type="email" name="email" placeholder="Email">
+                                </div>
+                                <div class="col-sm-12 pad-bottom-bigger form-item">
+                                    <input type="tel" name="phone" placeholder="Phone Number">
+                                </div>
+                                <div class="col-sm-12 form-item">
+                                    <textarea name="msg" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-lg-5 col-md-5 send-btn">
+                                    <input type="submit" name="submit" value="SEND MESSAGE">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 col-md-offset-1 col-sm-12 cntct-info">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="map"></div>
+                            </div>
+                            <div class="col-sm-12 bottom-border whitebackground contact-right">
+                                <div class="col-sm-12 contact-right-details">
+                                    <span class="fa fa-address-card"><i class="path1"></i><i class="path2"></i></span>
+                                    <div class="col-lg-10 col-md-9">
+                                        <span class="mape-cont">ADDRESS</span> <span class="contact-add">Plot number 2854 C1 Block Sushant Lok -1 Gurgaon, Haryana</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 contact-right-details">
+                                    <span class="fa fa-phone"><i class="path1"></i><i class="path2"></i><i class="path3"></i></span>
+                                    <div class="col-lg-10  col-md-9">
+                                        <span class="mape-cont">CALL ME</span> 9582111315
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 contact-right-details">
+                                    <span class="fa fa-envelope"><i class="path1"></i><i class="path2"></i><i class="path3"></i></span>
+                                    <div class="col-lg-10 col-md-9">
+                                        <span class="mape-cont">EMAIL</span>
+                                        <a href="www.gmail.com">vashisth@prudentiaindia.tk</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--contact me-->
+    </div>
+
+    <!--footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center wow animated fadeInUp" data-wow-delay="0.3s">
+                    <div class="footer-icon">
+                      <a href="https://fb.com/vashisth00"><span class="fa fa-facebook"></span></a>
+                      <a href="https://instagram.com/vashisth00"><span class="fa fa-instagram"></span></a>
+                      <a href="https://behance.net/vashisth00"><span class="fa fa-behance"></span></a>
+                      <a href="https://www.linkedin.com/in/vashisth00/"><span class="fa fa-linkedin"></span></a>
+                      <a href="https://www.quora.com/profile/Vashisth-Bhushan"><span class="fa fa-quora"></span></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 text-center mar-top-big text-primary copyrights wow animated fadeInUp" data-wow-delay="0.5s">
+                    &copy; 2018 Resume of <a href="https://www.fb.com/vashisth00" target="_blank" style="font-size:22px;">Vashisth Bhushan.</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
+    <!-- Back-to-top -->
+    <a href="#" class="back-to-top"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
+    <!-- Back-to-top -->
+    <!-- Putting script at the Bottom is typical Vashisth Bhushan Style, so that the page loads faster-->
+
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/isotope-docs.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script src="js/element.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- Add mousewheel plugin (this is optional) -->
+        <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+        <!-- Add Lytebox main JS files -->
+        <script type="text/javascript" src="js/lytebox.js"></script>
+
+        <!-- Add WOW main JS files -->
+        <script type="text/javascript" src="js/wow.min.js"></script>
+</body>
+
+</html>
