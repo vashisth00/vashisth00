@@ -1,6 +1,9 @@
 
 ### Hi there 👋 I'm Vashisth Bhushan
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=vashisth00&label=Profile Views&color=yellow&style=plastic" alt="vashisth00" /> </p>
+ <!--- Stole this from rshrc --->
+
 <a href="https://twitter.com/vashisth00">
   <img align="left" alt="Vashisth | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
