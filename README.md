@@ -21,7 +21,7 @@
 
 
 - 🔭 I’m currently working on Flutter Apps Hotstep and with rirev
-- 🌱 I’m currently learning Making Scalable apps
+- 🌱 I’m currently learning on how to make Scalable apps
 - 🤔 I’m looking for help with Live Streaming services on App and Web seamless like IG Live
 - 💬 Ask me about ReactJS, React Native, PHP, MySQL, UI, Designing
 - 📫 How to reach me: www.vashisthbhushan.com
