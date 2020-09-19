@@ -26,3 +26,5 @@
 - 💬 Ask me about ReactJS, React Native, PHP, MySQL, UI, Designing
 - 📫 How to reach me: www.vashisthbhushan.com
 - ⚡ Fun fact: Google Me
+- ✅ Designing
+- 🌐 www.adesignguy.co
