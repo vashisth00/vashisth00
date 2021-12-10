@@ -30,4 +30,4 @@
 - 🌐 www.adesignguy.co
 
 
-<a href="https://app.daily.dev/vashisth00"><img src="https://api.daily.dev/devcards/afd7081b6ccc4c749dd9c369b0668819.png?r=y9x" width="400" alt="Vashisth Bhushan's Dev Card"/></a>
+<a href="https://app.daily.dev/vashisth00"><img src="https://api.daily.dev/devcards/afd7081b6ccc4c749dd9c369b0668819.png?r=n55" width="200" alt="Vashisth Bhushan's Dev Card"/></a>
