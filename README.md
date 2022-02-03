@@ -1,5 +1,6 @@
 
-### Hi there 👋 I'm Vashisth Bhushan
+### <h1 align="center"> Hey! I am Vashisth Bhushan. <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> </h1>
+
 
 <img align="center" src="https://raw.githubusercontent.com/vashisth00/vashisth00/master/Animated_vb.gif" alt="vashisth00" />
 
