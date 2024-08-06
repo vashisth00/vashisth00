@@ -21,7 +21,7 @@
 <br />
 <a align="right" href="https://app.daily.dev/vashisth00"><img src="https://api.daily.dev/devcards/afd7081b6ccc4c749dd9c369b0668819.png?r=n55" width="200" alt="Vashisth Bhushan's Dev Card"/></a>
 
-- 🔭 I’m currently working on a lot things man can't jot it here lol
+- 🔭 I’m currently working on shopify
 - 🌱 I’m currently learning on how to make Scalable apps
 - 🤔 I’m looking for help with Live Streaming services on App and Web seamless like IG Live
 - 💬 Ask me about ReactJS, React Native, PHP, MySQL, UI, Designing
